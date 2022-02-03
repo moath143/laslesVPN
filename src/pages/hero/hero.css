@@ -1,0 +1,40 @@
+section h1{
+    color: #0B132A;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    margin: 40px 0;
+}
+
+section .padding-row{
+    padding: 80px 0
+}
+
+section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+section button{
+    background: #F53838 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 30px !important;
+    padding: 10px 80px !important;
+    border: 1px solid #F53838 !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    box-shadow: 0px 4px 54px rgba(245, 56, 56, 0.35) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+section button:hover{
+    background: #fff !important;
+    color: #F53838 !important;
+    border: 1px solid #F53838 !important;
+    box-shadow: none !important;
+}
+
