@@ -1,0 +1,48 @@
+.plan-section .pricing-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #dddddd;
+  transition: all 0.3s ease-in-out;
+  /* min-height: 909px; */
+}
+
+.plan-section .pricing-card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f53838 !important;
+}
+
+.plan-section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 288px;
+}
+
+.plan-section ul li {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.plan-section ul li svg {
+  color: #2fab73;
+}
+
+.plan-section button {
+  border: 1px solid #f53838 !important;
+  background-color: #fff !important;
+  color: #f53838 !important;
+  box-shadow: none !important;
+}
+
+.plan-section button:hover {
+  background-color: #f53838 !important;
+  color: #fff !important;
+}

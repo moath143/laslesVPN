@@ -1,0 +1,136 @@
+.customer {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.card {
+  padding: 40px;
+  border-radius: 10px;
+  border: 2px solid #dddddd;
+  /* border: 2px solid #F53838; */
+  background: #fff;
+  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */
+  display: flex;
+  gap: 10px;
+}
+
+.card .header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .header-card .rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card .header-card .rating svg {
+  color: #fea250;
+}
+
+.card .header-card .name {
+  display: flex;
+  align-items: center;
+}
+
+.card .header-card .name h4 {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+  margin: 0;
+}
+
+.card .header-card .name h4 span {
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+
+
+.card .body-card p {
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  min-height: 144px;
+}
+
+
+
+.react-multi-carousel-dot button,
+.react-multi-carousel-dot button:hover {
+  background-color: gray !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50px !important;
+}
+
+.react-multi-carousel-dot--active button,
+.react-multi-carousel-dot--active button:hover {
+  background-color: #f53838 !important;
+  box-shadow: none !important;
+}
+
+.react-multi-carousel-list{
+  padding: 0 0 100px 0
+}
+
+.react-multiple-carousel__arrow{
+  bottom: 0;
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-multi-carousel-dot-list{
+  justify-content: flex-start !important;
+  align-items: center;
+  padding: 10px 0;
+  gap: 7px
+}
+
+.react-multi-carousel-dot-list li{
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-multi-carousel-dot-list li button{
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.react-multi-carousel-dot--active, 
+.react-multi-carousel-dot--active button{
+  width: 50px !important;
+}
+
+button.react-multiple-carousel__arrow--left{
+  right: calc(4% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow{
+  display: none;
+}
+
+.react-multi-carousel-track {
+  gap: 10px;
+}
+
+

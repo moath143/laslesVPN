@@ -7,18 +7,18 @@ import person from "../../assets/Illustration.svg";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="hero-section">
       <Container>
-        <Row className='padding-row'>
-          <Col md={6}>
+        <Row className="padding-row">
+          <Col md={6} xs={12}>
             <h1>Want anything to be easy with LaslesVPN.</h1>
-            <p className='mb-5'>
+            <p className="mb-5">
               Provide a network for all your needs with ease and fun using
               LaslesVPN discover interesting features from us.
             </p>
             <Button>Get Started</Button>
           </Col>
-          <Col md={6}>
+          <Col md={6} xs={12}>
             <div className="image">
               <img src={person} alt="person" />
             </div>

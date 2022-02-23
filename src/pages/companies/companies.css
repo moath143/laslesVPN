@@ -1,0 +1,9 @@
+.companies{
+    padding: 50px 0;
+}
+
+.companies .images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.plan-section {
+  background-color: #fbfbfb;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.plan-section p {
+  padding: 0 0 60px 0 ;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.plan-section h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #0b132a;
+  padding: 25px 0;
+}
+
+

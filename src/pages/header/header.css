@@ -3,9 +3,9 @@
 }
 
 .navbar-nav {
-  justify-content: space-between;
   width: 60%;
   align-items: center;
+  justify-content: flex-end !important;
 }
 
 .navbar-nav a {
@@ -15,9 +15,19 @@
   font-weight: 400;
 }
 
-.btns{
-    display: flex;
-    gap: 20px
+.navbar-nav a.nav-link {
+  padding: 0.5rem 2rem !important;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
 }
 
 .btns button {
@@ -42,11 +52,84 @@
   color: #f53855;
   border-radius: 50px;
   padding: 10px 35px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btns button:last-of-type:hover {
   background-color: #f53855 !important;
-    border: 1px solid #f53855;
-    color: #fff;
+  border: 1px solid #f53855;
+  color: #fff;
+}
+
+
+/* width 575px */
+
+@media (max-width: 575px) {
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navbar{
+    padding: 1rem 0;
+  }
+
+  .btns{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .btns button{
+    border: none !important;
+    color: #0b132a !important;
+    background-color: none !important;
+    color: #4f5665 !important;
+  }
+
+.btns button:last-of-type:hover{
+    background-color: #fff !important;
+  }
+
+  .navbar-nav a:hover,
+  .btns button:hover{
+    color: #f53855 !important;
+  }
+}
+
+/* width 991px */
+
+@media (max-width: 991px){
+    .navbar{
+    padding: 1rem 0;
+  }
+
+  .btns button:last-of-type:hover{
+    background-color: #fff !important;
+  }
+
+  .navbar-nav a:hover,
+  .btns button:hover{
+    color: #f53855 !important;
+  }
+    .navbar-collapse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+    .btns button{
+    border: none !important;
+    color: #0b132a !important;
+    background-color: none !important;
+    color: #4f5665 !important;
+  }
+
+.btns button:last-of-type:hover{
+    background-color: #fff !important;
+  }
+    .btns{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
 }

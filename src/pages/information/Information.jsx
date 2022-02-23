@@ -12,7 +12,7 @@ import {
 
 const Information = () => {
   return (
-    <section>
+    <section className="info-section">
       <Container className='shadow'>
         <Row>
           <Col md={4}>
